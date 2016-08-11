@@ -22,12 +22,11 @@ Get it into your program.
 const findDown = require('find-down');
 ```
 
-Find the top-most file with the given name.
+Find the topmost file with the given name.
 
 ```ks
 findDown('unicorn.png').then((filepath) => {
-    console.log(filepath);
-    //=> '/Users/sholladay/unicorn.png'
+    console.log(filepath);  // => '/Users/sholladay/unicorn.png'
 });
 ```
 
