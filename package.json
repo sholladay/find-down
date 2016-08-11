@@ -1,0 +1,66 @@
+{
+  "name": "find-down",
+  "version": "0.0.0",
+  "description": "Find a file by walking down parent directories.",
+  "homepage": "https://github.com/sholladay/find-down",
+  "main": "index.js",
+  "author": {
+    "name": "Seth Holladay",
+    "url": "http://seth-holladay.com",
+    "email": "me@seth-holladay.com"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sholladay/find-down.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sholladay/find-down/issues",
+    "email": "me@seth-holladay.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "next-path": "^0.1.0",
+    "path-exists": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-tidy": "^0.3.0",
+    "xo": "^0.16.0"
+  },
+  "keywords": [
+    "find",
+    "down",
+    "find-down",
+    "finddown",
+    "look-down",
+    "look",
+    "file",
+    "files",
+    "search",
+    "match",
+    "package",
+    "resolve",
+    "parent",
+    "parents",
+    "folder",
+    "directory",
+    "directories",
+    "dir",
+    "dirs",
+    "walk",
+    "walking",
+    "path",
+    "paths"
+  ],
+  "xo": {
+    "extend": "tidy"
+  }
+}
