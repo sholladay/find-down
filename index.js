@@ -8,7 +8,7 @@ const findDown = (filename, option) => {
     const config = option || {};
 
     const end = path.resolve(config.cwd || '');
-    let dir = path.sep;
+    let dir = path.parse(end).root;
 
     return new Promise((resolve) => {
         (function find() {
