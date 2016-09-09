@@ -24,7 +24,7 @@ const findDown = require('find-down');
 
 Find the topmost file with the given name.
 
-```ks
+```js
 findDown('unicorn.png').then((filepath) => {
     console.log(filepath);  // => '/Users/sholladay/unicorn.png'
 });
