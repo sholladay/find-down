@@ -21,7 +21,7 @@
     "email": "me@seth-holladay.com"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=7"
   },
   "license": "MPL-2.0",
   "files": [
@@ -32,8 +32,8 @@
     "path-exists": "^3.0.0"
   },
   "devDependencies": {
-    "eslint-config-tidy": "^0.3.0",
-    "xo": "^0.16.0"
+    "eslint-config-tidy": "^0.4.0",
+    "xo": "^0.17.1"
   },
   "keywords": [
     "find",
