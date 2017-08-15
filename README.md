@@ -30,6 +30,31 @@ findDown('unicorn.png').then((filepath) => {
 });
 ```
 
+## API
+
+### findDown(filename, option)
+
+Returns a `Promise` for either the filepath or `null` if it cannot be found.
+
+### findDown([filenameA, filenameB], option)
+
+Returns a `Promise` for either the first filepath found (by respecting the order) or `null` if none could be found.
+
+#### filename
+
+Type: `string`
+
+Filename of the file to find.
+
+#### option
+
+##### cwd
+
+Type: `string`<br>
+Default: `process.cwd()`
+
+Directory to end with.
+
 ## Contributing
 
 See our [contributing guidelines](https://github.com/sholladay/find-down/blob/master/CONTRIBUTING.md "The guidelines for participating in this project.") for more details.
